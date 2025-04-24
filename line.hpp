@@ -16,5 +16,5 @@ public:
 private:
     Point p1, p2;
     double slope();
-    double cross(Point a, Point b, Point c);
+    bool Intersect(Line l2);
 };

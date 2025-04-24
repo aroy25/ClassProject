@@ -6,6 +6,7 @@
 using namespace std;
 
 int main() {
+    //changes
     // Test Point
     Point p1(1.2, 3.4);
     Point p2(-5.6, 7.8);

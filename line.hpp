@@ -10,11 +10,10 @@ public:
     double length();
     bool contains(Point p);
     bool parallel(Line& other);
-    bool intersecting(Line& other);
     string toString();
+    bool intersecting(Line l2);
     
 private:
     Point p1, p2;
     double slope();
-    bool Intersect(Line l2);
 };
